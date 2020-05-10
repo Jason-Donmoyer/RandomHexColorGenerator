@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+button {
+  display: flex;
+  width: 100px;
+  align-self: center;
+}
+
+.output {
+  display: flex;
+  min-width: 250px;
+  align-self: center;
+  justify-content: center;
+  background-color: lightgray;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#outputText {
+  padding: 4px;
+}
